@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: relative;
+  animation: slideAndColor 3s ease-in-out infinite;
+}
+
+@keyframes slideAndColor {
+  0% {
+    top: 0;
+    background-color: #3498db; 
+  }
+  50% {
+    top: calc(100vh - 150px); 
+    background-color: #e74c3c;
+  }
+  100% {
+    top: 0;
+    background-color: #3498db; 
+  }
+}

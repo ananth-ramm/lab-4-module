@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.card-title {
+  font-weight: 600;
+}
